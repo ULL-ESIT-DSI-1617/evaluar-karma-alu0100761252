@@ -1,7 +1,15 @@
 {
   "dependencies": {
+    "karma": "*",
+    "karma-chai": "*",
+    "karma-chrome-launcher": "*",
+    "karma-firefox-launcher": "*",
+    "karma-html2js-preprocessor": "*",
+    "karma-mocha": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma-safari-launcher": "*"
   },
-  "name": "temperature",
+  "name": "evaluar-karma-alu0100761252",
   "description": "ETSII ULL Grado de Informatica",
   "version": "1.0.0",
   "main": "temperature.js",
@@ -9,12 +17,17 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "open tests/index.html # mac OS"
+    "test": "open tests/index.html # mac OS",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ULL-ESIT-DSI-1617/eliminando-switch-smell-alberto-diego-35l1-1.git"
+    "url": "git@github.com:ULL-ESIT-DSI-1617/evaluar-karma-alu0100761252.git"
   },
-  "author": "Diego, Alberto",
-  "license": "ISC"
+  "author": "Diego",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.3.0",
+    "chai": "*",
+  }
 }
